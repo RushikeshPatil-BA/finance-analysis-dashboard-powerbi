@@ -9,7 +9,7 @@ The objective of this project is to:
 - Improve transparency in financial performance for business.
 
 ## Dataset used
-- <a href="https://github.com/Anish7000/Finance-Analysis-Dashboard/blob/main/Finance_Expenses.csv">Dataset</a>
+- <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard-powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/Finance_Expenses.csv">Dataset</a>
 
 ## Question (KPIs)
 - Which expense categories contribute the most to total spending.
@@ -20,7 +20,7 @@ The objective of this project is to:
 - The distribution of debit transactions across different company.
 - Which sub-categories account for the highest spending. 
 
-- Dashboard <a href="https://github.com/Anish7000/Finance-Analysis-Dashboard/blob/main/Finance%20Screenshot.png">Dashboard</a>
+- Dashboard <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/Finance%20Screenshot.png">Dashboard</a>
 
 ## Process
 - Collected and imported financial data (CSV format).
