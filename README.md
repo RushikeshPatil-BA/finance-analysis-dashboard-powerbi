@@ -20,7 +20,7 @@ The objective of this project is to:
 - The distribution of debit transactions across different company.
 - Which sub-categories account for the highest spending. 
 
-- Dashboard <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/Finance%20Screenshot.png">Dashboard</a>
+- Dashboard <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard-powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/finance%20dashboard.pbix">Dashboard</a>
 
 ## Process
 - Collected and imported financial data (CSV format).
