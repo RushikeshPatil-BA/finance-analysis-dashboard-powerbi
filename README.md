@@ -1,41 +1,54 @@
-# Finance-Analysis-Dashboard
-A Finance and Performance Analysis Dashboard built using Power BI to track company expenses, identify key cost areas, and uncover financial insights. This project demonstrates business analyst skills through KPI-driven visuals, interactive filters, and clear dataset. 
+# Financial Performance Analysis Dashboard (Power BI)
 
-## Project Objective
-The objective of this project is to:
-- Track and analyze company expenses over time.
-- Identify key spending areas and patterns.
-- Provide actionable insights through interactive dashboards.
-- Improve transparency in financial performance for business.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-Data%20Prep-217346?logo=microsoftexcel&logoColor=white)
 
-## Dataset used
-- <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard-powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/Finance_Expenses.csv">Dataset</a>
+An interactive Power BI dashboard that tracks a company's income and expenses across a full year. It shows where the money goes and how cash flow changes month by month.
 
-## Question (KPIs)
-- Which expense categories contribute the most to total spending.
-- Days wise company spending the most or least.
-- Monthly income and expenses compare over time.
-- The overall difference between total income and total expenses.
-- Account types for most of the debit transactions.
-- The distribution of debit transactions across different company.
-- Which sub-categories account for the highest spending. 
+![Dashboard](dashboard_screenshot.png)
 
-- Dashboard <a href="https://github.com/RushikeshPatil-BA/finance-analysis-dashboard-powerbi/blob/0ed2cbfdb762b5bea75e4cd4c3f65c1f088b051c/finance%20dashboard.pbix">Dashboard</a>
+---
 
-## Process
-- Collected and imported financial data (CSV format).
-- Cleaned and prepared data in Microsoft excel.
-- Built interactive Dashboard using PowerBI.
-- Analyzed spending trends and patterns.
-- Delivered a clean, insightful dashboard for business use.
+## Business questions
 
-  
-## Project Outcome
-The dashboard provides:
-- A clear understanding of monthly and category-wise expenses.
-- Quick identification of cost-heavy areas.
-- Interactive tools for financial decision-making.
+1. Which expense categories and sub-categories cost the most?
+2. How does spending vary day to day?
+3. How do monthly income and expenses compare?
+4. What is the overall gap between total income and total expenses?
+5. Which account types and companies carry the most debit transactions?
 
-## Conclusion
+## Key findings
 
-This project showcases my practical skills in financial analysis, data visualization, and storytelling using Power BI. It is an ideal demonstration of how business analysts can translate raw financial data into insights that inform business strategy and cost optimization.
+- **Income of about 277K against expenses of about 213K** for the year, a net surplus of about 64K.
+- Spending is **spread evenly across categories**. Bills (37K), Entertainment (37K), Travel (37K) and Living Expenses (36K) are all close, so there is no single cost to cut. Savings would need to come from several areas.
+- At sub-category level, **Utilities, Entertainment and Transport** lead spending at about 37K each.
+- Debits are **split almost evenly across the four companies and three account types** (credit, savings, checking).
+
+## Dashboard features
+
+- KPI cards for Bills, Food, Living and Travel
+- Waterfall chart of expenses by category
+- Daily spend trend
+- Monthly income vs expense comparison
+- Breakdown by sub-category, company and account type
+- Slicers for quarter, company and account
+
+## Data
+
+[`Finance_Expenses.csv`](Finance_Expenses.csv) has 500 transactions dated January to December 2023. Its columns are account, date, company, debit, credit, amount, category, sub-category and type (income or expense). I cleaned and prepared it in Excel before loading it into Power BI.
+
+## Files
+
+```
+├── Finance_Dashboard.pbix      Power BI report
+├── Finance_Expenses.csv        Dataset
+└── dashboard_screenshot.png
+```
+
+## Skills shown
+
+Data cleaning in Excel · Power BI data modelling · KPI design · waterfall and comparison visuals · financial storytelling
+
+---
+
+**Rushikesh Patil** · [GitHub](https://github.com/RushikeshPatil-BA)
